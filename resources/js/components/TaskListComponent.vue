@@ -28,6 +28,36 @@
             <button class="btn btn-danger">Delete</button>
           </td>
         </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Ttile2</td>
+          <td>Content2</td>
+          <td>Ichiro2</td>
+          <td>
+            <button class="btn btn-primary">show</button>
+          </td>
+          <td>
+            <button class="btn btn-success">Edit</button>
+          </td>
+          <td>
+            <button class="btn btn-danger">Delete</button>
+          </td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Ttile2</td>
+          <td>Content2</td>
+          <td>Ichiro2</td>
+          <td>
+            <button class="btn btn-primary">show</button>
+          </td>
+          <td>
+            <button class="btn btn-success">Edit</button>
+          </td>
+          <td>
+            <button class="btn btn-danger">Delete</button>
+          </td>
+        </tr>
       </tbody>
     </table>
   </div>
