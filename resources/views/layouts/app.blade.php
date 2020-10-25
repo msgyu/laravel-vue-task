@@ -21,7 +21,7 @@
 <body>
     <div id="app">
         <header-component></header-component>
-        <body-component></body-component>
+        <router-view></router-view>
     </div>
 </body>
 <!-- Script -->
