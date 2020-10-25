@@ -12,6 +12,23 @@
           <th scope="col">Delete</th>
         </tr>
       </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Ttile1</td>
+          <td>Content1</td>
+          <td>Ichiro</td>
+          <td>
+            <button class="btn btn-primary">show</button>
+          </td>
+          <td>
+            <button class="btn btn-success">Edit</button>
+          </td>
+          <td>
+            <button class="btn btn-danger">Delete</button>
+          </td>
+        </tr>
+      </tbody>
     </table>
   </div>
 </template>
