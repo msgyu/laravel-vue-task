@@ -21,6 +21,7 @@
 <body>
     <div id="app">
         <header-component></header-component>
+        <body-component></body-component>
     </div>
 </body>
 <!-- Script -->
