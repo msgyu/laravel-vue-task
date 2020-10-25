@@ -1,5 +1,5 @@
 <template>
-  <div class="container-fluid bg-dark md-3">
+  <div class="container-fluid bg-dark mb-3">
     <div class="container">
       <nav class="navbar navbar-dark">
         <span class="navbar-brand mb-0 h1">Vue Laravel SPA</span>
@@ -11,9 +11,7 @@
     </div>
   </div>
 </template>
-
-<script>
-export default {
-  
-}
+ 
+ <script>
+export default {};
 </script>
