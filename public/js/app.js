@@ -50008,6 +50008,14 @@ __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
 window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.js");
 Vue.use(VueRouter);
+var router = new VueRouter({
+  mode: "history",
+  routes: [{
+    path: "/tasks",
+    name: "task.list",
+    component: _components_TaskListComponent__WEBPACK_IMPORTED_MODULE_1__["default"]
+  }]
+});
 Vue.component("example-component", __webpack_require__(/*! ./components/ExampleComponent.vue */ "./resources/js/components/ExampleComponent.vue")["default"]);
 Vue.component("header-component", _components_HeaderComponent__WEBPACK_IMPORTED_MODULE_0__["default"]);
 Vue.component("body-component", _components_TaskListComponent__WEBPACK_IMPORTED_MODULE_1__["default"]);
