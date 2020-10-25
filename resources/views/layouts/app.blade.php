@@ -77,5 +77,7 @@
         </main>
     </div>
 </body>
+<!-- Script -->
+<script src="{{ mix('/js/app.js') }}" defer></script>
 
 </html>
