@@ -33,5 +33,9 @@
 </template>
 
 <script>
-export default {};
+export default {
+  props: {
+    taskId: String
+  }
+};
 </script>
