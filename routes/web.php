@@ -17,6 +17,8 @@ Route::get('/{any}', function () {
     return view('layouts/app');
 })->where('any', '.*');
 
+
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
