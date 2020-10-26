@@ -13,6 +13,16 @@
               v-bind:value="taskId"
             />
           </div>
+          <div class="form-group row border-bottom">
+            <label for="title" class="col-sm-3 col-form-label">Title</label>
+            <input
+              type="text"
+              class="col-sm-9 form-control-plaintext"
+              readonly
+              id="title"
+              value="title"
+            />
+          </div>
         </form>
       </div>
     </div>
