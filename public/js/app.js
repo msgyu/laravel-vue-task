@@ -2000,6 +2000,57 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/TaskEditComponent.vue?vue&type=script&lang=js&":
+/*!****************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/TaskEditComponent.vue?vue&type=script&lang=js& ***!
+  \****************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  props: {
+    taskId: String
+  }
+});
+
+/***/ }),
+
 /***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/TaskListComponent.vue?vue&type=script&lang=js&":
 /*!****************************************************************************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/TaskListComponent.vue?vue&type=script&lang=js& ***!
@@ -37911,6 +37962,117 @@ render._withStripped = true
 
 /***/ }),
 
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/TaskEditComponent.vue?vue&type=template&id=e57eaa9a&":
+/*!********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/TaskEditComponent.vue?vue&type=template&id=e57eaa9a& ***!
+  \********************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", { staticClass: "container" }, [
+    _c("div", { staticClass: "row justify-content-center" }, [
+      _c("div", { staticClass: "col-sm-6" }, [
+        _c("form", [
+          _c("div", { staticClass: "form-group row" }, [
+            _c(
+              "label",
+              { staticClass: "col-sm-3 col-form-label", attrs: { for: "id" } },
+              [_vm._v("ID")]
+            ),
+            _vm._v(" "),
+            _c("input", {
+              staticClass: "col-sm-9 form-control-plaintext",
+              attrs: { type: "text", readonly: "", id: "id" },
+              domProps: { value: _vm.taskId }
+            })
+          ]),
+          _vm._v(" "),
+          _vm._m(0),
+          _vm._v(" "),
+          _vm._m(1),
+          _vm._v(" "),
+          _vm._m(2),
+          _vm._v(" "),
+          _c(
+            "button",
+            { staticClass: "btn btn-primary", attrs: { type: "submit" } },
+            [_vm._v("Submit")]
+          )
+        ])
+      ])
+    ])
+  ])
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "form-group row" }, [
+      _c(
+        "label",
+        { staticClass: "col-sm-3 col-form-label", attrs: { for: "title" } },
+        [_vm._v("Title")]
+      ),
+      _vm._v(" "),
+      _c("input", {
+        staticClass: "col-sm-9 form-control",
+        attrs: { type: "text", id: "title" }
+      })
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "form-group row" }, [
+      _c(
+        "label",
+        { staticClass: "col-sm-3 col-form-label", attrs: { for: "content" } },
+        [_vm._v("Content")]
+      ),
+      _vm._v(" "),
+      _c("input", {
+        staticClass: "col-sm-9 form-control",
+        attrs: { type: "text", id: "content" }
+      })
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "form-group row" }, [
+      _c(
+        "label",
+        {
+          staticClass: "col-sm-3 col-form-label",
+          attrs: { for: "person-in-charge" }
+        },
+        [_vm._v("Person In Charge")]
+      ),
+      _vm._v(" "),
+      _c("input", {
+        staticClass: "col-sm-9 form-control",
+        attrs: { type: "text", id: "person-in-charge" }
+      })
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
 /***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/TaskListComponent.vue?vue&type=template&id=a75d8ec2&":
 /*!********************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/TaskListComponent.vue?vue&type=template&id=a75d8ec2& ***!
@@ -53462,7 +53624,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_TaskListComponent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/TaskListComponent */ "./resources/js/components/TaskListComponent.vue");
 /* harmony import */ var _components_TaskShowComponent__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/TaskShowComponent */ "./resources/js/components/TaskShowComponent.vue");
 /* harmony import */ var _components_TaskCreateComponent__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/TaskCreateComponent */ "./resources/js/components/TaskCreateComponent.vue");
+/* harmony import */ var _components_TaskEditComponent__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/TaskEditComponent */ "./resources/js/components/TaskEditComponent.vue");
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
+
 
 
 
@@ -53487,6 +53651,11 @@ var router = new vue_router__WEBPACK_IMPORTED_MODULE_0__["default"]({
     path: "/tasks/create",
     name: "task.create",
     component: _components_TaskCreateComponent__WEBPACK_IMPORTED_MODULE_4__["default"]
+  }, {
+    path: "/tasks/:taskId/edit",
+    name: "task.edit",
+    component: _components_TaskEditComponent__WEBPACK_IMPORTED_MODULE_5__["default"],
+    props: true
   }]
 });
 Vue.component("header-component", _components_HeaderComponent__WEBPACK_IMPORTED_MODULE_1__["default"]);
@@ -53744,6 +53913,75 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_TaskCreateComponent_vue_vue_type_template_id_78028f01___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_TaskCreateComponent_vue_vue_type_template_id_78028f01___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/TaskEditComponent.vue":
+/*!*******************************************************!*\
+  !*** ./resources/js/components/TaskEditComponent.vue ***!
+  \*******************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _TaskEditComponent_vue_vue_type_template_id_e57eaa9a___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./TaskEditComponent.vue?vue&type=template&id=e57eaa9a& */ "./resources/js/components/TaskEditComponent.vue?vue&type=template&id=e57eaa9a&");
+/* harmony import */ var _TaskEditComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./TaskEditComponent.vue?vue&type=script&lang=js& */ "./resources/js/components/TaskEditComponent.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _TaskEditComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _TaskEditComponent_vue_vue_type_template_id_e57eaa9a___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _TaskEditComponent_vue_vue_type_template_id_e57eaa9a___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/TaskEditComponent.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/TaskEditComponent.vue?vue&type=script&lang=js&":
+/*!********************************************************************************!*\
+  !*** ./resources/js/components/TaskEditComponent.vue?vue&type=script&lang=js& ***!
+  \********************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_TaskEditComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib??ref--4-0!../../../node_modules/vue-loader/lib??vue-loader-options!./TaskEditComponent.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/TaskEditComponent.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_TaskEditComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/TaskEditComponent.vue?vue&type=template&id=e57eaa9a&":
+/*!**************************************************************************************!*\
+  !*** ./resources/js/components/TaskEditComponent.vue?vue&type=template&id=e57eaa9a& ***!
+  \**************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_TaskEditComponent_vue_vue_type_template_id_e57eaa9a___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./TaskEditComponent.vue?vue&type=template&id=e57eaa9a& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/TaskEditComponent.vue?vue&type=template&id=e57eaa9a&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_TaskEditComponent_vue_vue_type_template_id_e57eaa9a___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_TaskEditComponent_vue_vue_type_template_id_e57eaa9a___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
