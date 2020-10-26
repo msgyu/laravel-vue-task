@@ -3,6 +3,8 @@ require("./bootstrap");
 import VueRouter from "vue-router";
 import HeaderComponent from "./components/HeaderComponent";
 import TaskListComponent from "./components/TaskListComponent";
+import TaskShowComponent from "./components/TaskShowComponent";
+
 
 window.Vue = require("vue");
 Vue.component(
