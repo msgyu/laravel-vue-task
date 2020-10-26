@@ -5,7 +5,6 @@ import HeaderComponent from "./components/HeaderComponent";
 import TaskListComponent from "./components/TaskListComponent";
 import TaskShowComponent from "./components/TaskShowComponent";
 
-
 window.Vue = require("vue");
 Vue.component(
     "example-component",
@@ -20,6 +19,12 @@ const router = new VueRouter({
             path: "/tasks",
             name: "task.list",
             component: TaskListComponent
+        },
+        {
+            path: "/tasks/:taskId",
+            name: "task.show",
+            component: TaskShowComponent,
+            props: true
         }
     ]
 });
