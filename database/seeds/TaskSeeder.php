@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
+use App\Models\Task;
 
 class TaskSeeder extends Seeder
 {
@@ -11,6 +12,12 @@ class TaskSeeder extends Seeder
      */
     public function run()
     {
-        //
+        for ($i = 1; $i <= 10; $i++) {
+            Task::create([
+                'title' => 'title' . $i,
+                'content' => 'content' . $i,
+                'person_in_charge' => 'person_in_charge' . $i,
+            ]);
+        }
     }
 }
