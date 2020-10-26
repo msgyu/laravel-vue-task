@@ -23,6 +23,16 @@
               value="title"
             />
           </div>
+          <div class="form-group row border-bottom">
+            <label for="content" class="col-sm-3 col-form-label">Content</label>
+            <input
+              type="text"
+              class="col-sm-9 form-control-plaintext"
+              readonly
+              id="content"
+              value="content content"
+            />
+          </div>
         </form>
       </div>
     </div>
