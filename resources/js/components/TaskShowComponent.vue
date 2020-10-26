@@ -33,6 +33,16 @@
               value="content content"
             />
           </div>
+          <div class="form-group row border-bottom">
+            <label for="person-in-charge" class="col-sm-3 col-form-label">Person In Charge</label>
+            <input
+              type="text"
+              class="col-sm-9 form-control-plaintext"
+              readonly
+              id="person-in-charge"
+              value="Ichiro"
+            />
+          </div>
         </form>
       </div>
     </div>
