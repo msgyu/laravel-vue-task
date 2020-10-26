@@ -37873,7 +37873,7 @@ var render = function() {
             [
               _c(
                 "router-link",
-                { attrs: { to: { name: "task.show", params: { taskId: 2 } } } },
+                { attrs: { to: { name: "task.show", params: { taskId: 3 } } } },
                 [
                   _c("button", { staticClass: "btn btn-primary" }, [
                     _vm._v("show")

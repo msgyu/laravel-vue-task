@@ -53,7 +53,7 @@
           <td>Content2</td>
           <td>Ichiro2</td>
           <td>
-            <router-link v-bind:to="{name: 'task.show', params: {taskId: 2}}">
+            <router-link v-bind:to="{name: 'task.show', params: {taskId: 3}}">
               <button class="btn btn-primary">show</button>
             </router-link>
           </td>
