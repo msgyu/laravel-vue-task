@@ -2131,6 +2131,12 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({});
 
 /***/ }),
@@ -38118,9 +38124,23 @@ var render = function() {
             1
           ),
           _vm._v(" "),
-          _vm._m(1),
+          _c(
+            "td",
+            [
+              _c(
+                "router-link",
+                { attrs: { to: { name: "task.edit", params: { takeId: 1 } } } },
+                [
+                  _c("button", { staticClass: "btn btn-success" }, [
+                    _vm._v("Edit")
+                  ])
+                ]
+              )
+            ],
+            1
+          ),
           _vm._v(" "),
-          _vm._m(2)
+          _vm._m(1)
         ]),
         _vm._v(" "),
         _c("tr", [
@@ -38148,9 +38168,23 @@ var render = function() {
             1
           ),
           _vm._v(" "),
-          _vm._m(3),
+          _c(
+            "td",
+            [
+              _c(
+                "router-link",
+                { attrs: { to: { name: "task.edit", params: { taskId: 2 } } } },
+                [
+                  _c("button", { staticClass: "btn btn-success" }, [
+                    _vm._v("Edit")
+                  ])
+                ]
+              )
+            ],
+            1
+          ),
           _vm._v(" "),
-          _vm._m(4)
+          _vm._m(2)
         ]),
         _vm._v(" "),
         _c("tr", [
@@ -38178,9 +38212,23 @@ var render = function() {
             1
           ),
           _vm._v(" "),
-          _vm._m(5),
+          _c(
+            "td",
+            [
+              _c(
+                "router-link",
+                { attrs: { to: { name: "task.edit", params: { taskId: 3 } } } },
+                [
+                  _c("button", { staticClass: "btn btn-success" }, [
+                    _vm._v("Edit")
+                  ])
+                ]
+              )
+            ],
+            1
+          ),
           _vm._v(" "),
-          _vm._m(6)
+          _vm._m(3)
         ])
       ])
     ])
@@ -38214,14 +38262,6 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("td", [
-      _c("button", { staticClass: "btn btn-success" }, [_vm._v("Edit")])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("td", [
       _c("button", { staticClass: "btn btn-danger" }, [_vm._v("Delete")])
     ])
   },
@@ -38230,23 +38270,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("td", [
-      _c("button", { staticClass: "btn btn-success" }, [_vm._v("Edit")])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("td", [
       _c("button", { staticClass: "btn btn-danger" }, [_vm._v("Delete")])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("td", [
-      _c("button", { staticClass: "btn btn-success" }, [_vm._v("Edit")])
     ])
   },
   function() {
