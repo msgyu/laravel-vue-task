@@ -2073,6 +2073,15 @@ __webpack_require__.r(__webpack_exports__);
     return {
       task: {}
     };
+  },
+  methods: {
+    getTask: function getTask() {
+      var _this = this;
+
+      axios.get("/api/tasks/" + this.taskId).then(function (res) {
+        _this.task = res.data;
+      });
+    }
   }
 });
 
