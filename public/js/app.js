@@ -2160,17 +2160,17 @@ __webpack_require__.r(__webpack_exports__);
       axios.get("/api/tasks").then(function (res) {
         _this.tasks = res.data;
       });
+    },
+    deleteTask: function deleteTask(id) {
+      var _this2 = this;
+
+      axios["delete"]("/api/tasks/" + id).then(function (res) {
+        _this2.getTasks();
+      });
     }
   },
   mounted: function mounted() {
     this.getTasks();
-  },
-  deleteTask: function deleteTask(id) {
-    var _this2 = this;
-
-    axios["delete"]("/api/tasks/" + id).then(function (res) {
-      _this2.getTasks();
-    });
   }
 });
 
