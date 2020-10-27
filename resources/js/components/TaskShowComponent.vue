@@ -53,6 +53,21 @@
 export default {
   props: {
     taskId: String
+  },
+  date: function() {
+    return {
+      task: {}
+    };
+  },
+  methods: {
+    getTask() {
+      axios.get("/api/tasks/" + this.taskId).then(res => {
+        this.task = res.data;
+      });
+    }
+  },
+  mounted() {
+    this.getTask();
   }
 };
 </script>
