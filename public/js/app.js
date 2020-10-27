@@ -37906,73 +37906,90 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
-}
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "container" }, [
-      _c("div", { staticClass: "row justify-content-center" }, [
-        _c("div", { staticClass: "col-sm-6" }, [
-          _c("form", [
-            _c("div", { staticClass: "form-group row" }, [
-              _c(
-                "label",
-                {
-                  staticClass: "col-sm-3 col-form-label",
-                  attrs: { for: "title" }
-                },
-                [_vm._v("Title")]
-              ),
-              _vm._v(" "),
-              _c("input", {
-                staticClass: "col-sm-9 form-control",
-                attrs: { type: "text", id: "title" }
-              })
-            ]),
+  return _c("div", { staticClass: "container" }, [
+    _c("div", { staticClass: "row justify-content-center" }, [
+      _c("div", { staticClass: "col-sm-6" }, [
+        _c(
+          "form",
+          {
+            on: {
+              submit: function($event) {
+                $event.preventDefault()
+                return _vm.submit($event)
+              }
+            }
+          },
+          [
+            _vm._m(0),
             _vm._v(" "),
-            _c("div", { staticClass: "form-group row" }, [
-              _c(
-                "label",
-                {
-                  staticClass: "col-sm-3 col-form-label",
-                  attrs: { for: "content" }
-                },
-                [_vm._v("Content")]
-              ),
-              _vm._v(" "),
-              _c("input", {
-                staticClass: "col-sm-9 form-control",
-                attrs: { type: "text", id: "content" }
-              })
-            ]),
+            _vm._m(1),
             _vm._v(" "),
-            _c("div", { staticClass: "form-group row" }, [
-              _c(
-                "label",
-                {
-                  staticClass: "col-sm-3 col-form-label",
-                  attrs: { for: "person-in-charge" }
-                },
-                [_vm._v("Person In Charge")]
-              ),
-              _vm._v(" "),
-              _c("input", {
-                staticClass: "col-sm-9 form-control",
-                attrs: { type: "text", id: "person-in-charge" }
-              })
-            ]),
+            _vm._m(2),
             _vm._v(" "),
             _c(
               "button",
               { staticClass: "btn btn-primary", attrs: { type: "submit" } },
               [_vm._v("Submit")]
             )
-          ])
-        ])
+          ]
+        )
       ])
+    ])
+  ])
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "form-group row" }, [
+      _c(
+        "label",
+        { staticClass: "col-sm-3 col-form-label", attrs: { for: "title" } },
+        [_vm._v("Title")]
+      ),
+      _vm._v(" "),
+      _c("input", {
+        staticClass: "col-sm-9 form-control",
+        attrs: { type: "text", id: "title" }
+      })
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "form-group row" }, [
+      _c(
+        "label",
+        { staticClass: "col-sm-3 col-form-label", attrs: { for: "content" } },
+        [_vm._v("Content")]
+      ),
+      _vm._v(" "),
+      _c("input", {
+        staticClass: "col-sm-9 form-control",
+        attrs: { type: "text", id: "content" }
+      })
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "form-group row" }, [
+      _c(
+        "label",
+        {
+          staticClass: "col-sm-3 col-form-label",
+          attrs: { for: "person-in-charge" }
+        },
+        [_vm._v("Person In Charge")]
+      ),
+      _vm._v(" "),
+      _c("input", {
+        staticClass: "col-sm-9 form-control",
+        attrs: { type: "text", id: "person-in-charge" }
+      })
     ])
   }
 ]
