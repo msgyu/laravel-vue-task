@@ -76,5 +76,21 @@
 </template>
 
 <script>
-export default {};
+export default {
+  data: function() {
+    return {
+      tasks: []
+    };
+  },
+  methods: {
+    getTasks() {
+      axios.get("/api/tasks").then(res => {
+        this.tasks = res.data;
+      });
+    }
+  },
+  mounted() {
+    this.getTasks();
+  }
+};
 </script>
