@@ -2240,7 +2240,7 @@ __webpack_require__.r(__webpack_exports__);
   props: {
     taskId: String
   },
-  date: function date() {
+  data: function data() {
     return {
       task: {}
     };

@@ -54,7 +54,7 @@ export default {
   props: {
     taskId: String
   },
-  date: function() {
+  data: function() {
     return {
       task: {}
     };
