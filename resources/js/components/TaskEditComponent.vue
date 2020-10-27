@@ -2,7 +2,7 @@
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-sm-6">
-        <form>
+        <form v-on:submit.prevent="submit">
           <div class="form-group row">
             <label for="id" class="col-sm-3 col-form-label">ID</label>
             <input
