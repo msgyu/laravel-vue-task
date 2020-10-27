@@ -47,7 +47,15 @@ export default {
       axios.get("/api/tasks/" + this.taskId).then(res => {
         this.task = res.data;
       });
+    },
+    submit() {
+      axios.put("/api/tasks/" + this.taskId, this.task).then(res => {
+        this.$router.push({ name: "task.list" });
+      });
     }
+  },
+  mounted() {
+    this.getTask();
   }
 };
 </script>

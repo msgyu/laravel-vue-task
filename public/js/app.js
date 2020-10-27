@@ -2081,7 +2081,19 @@ __webpack_require__.r(__webpack_exports__);
       axios.get("/api/tasks/" + this.taskId).then(function (res) {
         _this.task = res.data;
       });
+    },
+    submit: function submit() {
+      var _this2 = this;
+
+      axios.put("/api/tasks/" + this.taskId, this.task).then(function (res) {
+        _this2.$router.push({
+          name: "task.list"
+        });
+      });
     }
+  },
+  mounted: function mounted() {
+    this.getTask();
   }
 });
 
