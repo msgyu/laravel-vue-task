@@ -14,55 +14,17 @@
       </thead>
       <tbody>
         <tr>
-          <th scope="row">1</th>
-          <td>Ttile1</td>
-          <td>Content1</td>
-          <td>Ichiro</td>
+          <th scope="row">{{ task.id}}</th>
+          <td>{{ task.title }}</td>
+          <td>{{ task.content}}</td>
+          <td>{{ task.person_in_charge}}</td>
           <td>
-            <router-link v-bind:to="{name: 'task.show', params: {taskId: 1}}">
+            <router-link v-bind:to="{name: 'task.show', params: {taskId: task.id}}">
               <button class="btn btn-primary">show</button>
             </router-link>
           </td>
           <td>
-            <router-link v-bind:to="{name: 'task.edit', params: {takeId: 1}}">
-              <button class="btn btn-success">Edit</button>
-            </router-link>
-          </td>
-          <td>
-            <button class="btn btn-danger">Delete</button>
-          </td>
-        </tr>
-        <tr>
-          <th scope="row">2</th>
-          <td>Ttile2</td>
-          <td>Content2</td>
-          <td>Ichiro2</td>
-          <td>
-            <router-link v-bind:to="{name: 'task.show', params: {taskId: 2}}">
-              <button class="btn btn-primary">show</button>
-            </router-link>
-          </td>
-          <td>
-            <router-link v-bind:to="{name: 'task.edit', params: {taskId: 2}}">
-              <button class="btn btn-success">Edit</button>
-            </router-link>
-          </td>
-          <td>
-            <button class="btn btn-danger">Delete</button>
-          </td>
-        </tr>
-        <tr>
-          <th scope="row">2</th>
-          <td>Ttile2</td>
-          <td>Content2</td>
-          <td>Ichiro2</td>
-          <td>
-            <router-link v-bind:to="{name: 'task.show', params: {taskId: 3}}">
-              <button class="btn btn-primary">show</button>
-            </router-link>
-          </td>
-          <td>
-            <router-link v-bind:to="{name: 'task.edit', params: {taskId: 3}}">
+            <router-link v-bind:to="{name: 'task.edit', params: {takeId: task.id}}">
               <button class="btn btn-success">Edit</button>
             </router-link>
           </td>
