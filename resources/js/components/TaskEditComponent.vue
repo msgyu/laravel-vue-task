@@ -36,6 +36,11 @@
 export default {
   props: {
     taskId: String
+  },
+  data: function() {
+    return {
+      task: {}
+    };
   }
 };
 </script>
