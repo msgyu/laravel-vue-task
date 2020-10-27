@@ -1,3 +1,7 @@
+#Laravel7+Vue
+![削除](https://user-images.githubusercontent.com/52862370/97369568-8b1bba80-18f0-11eb-8545-c3183087cc68.gif)
+Laravel7にVue.jsを導入し、簡単なCRUD機能を実装。
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
