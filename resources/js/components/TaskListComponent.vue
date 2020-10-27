@@ -53,6 +53,11 @@ export default {
   },
   mounted() {
     this.getTasks();
+  },
+  deleteTask(id) {
+    axios.delete("/api/tasks/" + id).then(res => {
+      this.getTasks();
+    });
   }
 };
 </script>
